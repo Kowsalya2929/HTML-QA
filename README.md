@@ -3,8 +3,8 @@
 <ol>
 <li>Basic Structure & Document Tags :</li>
 <ol>
-<li><a href="">What is the purpose of the <!DOCTYPE> declaration in HTML?</a></li>
-<li><a href=""></a></li>
+<li><a href="">What is the purpose of the `<!DOCTYPE>` declaration in HTML?</a></li>
+<li><a href="">What does the `<html>` tag represent?</a></li>
 <li><a href=""></a></li>
 <li><a href=""></a></li>
 <li><a href=""></a></li>
