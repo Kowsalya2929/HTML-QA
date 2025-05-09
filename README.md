@@ -1,84 +1,270 @@
-# HTML Tags - Interview-style Questions
+# HTML Tags & Their Purposes
 
-## 1. Basic Structure & Document Tags
-1. [What is the purpose of the `<!DOCTYPE>` declaration in HTML?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/01-html.md)
-2. [What does the `<html>` tag represent?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/02-html.md)
-3. [What is the purpose of the `<head>` tag?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/03-html.md)
-4. [What is the `<body>` tag used for?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/04-html.md)
-5. [What is the `<meta>` tag used for?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/05-html.md)
+## Basic Structure & Document Tags
 
-## 2. Metadata Tags
-6. [What is the purpose of the `<title>` tag?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/06-html.md)
-7. [What does the `<meta charset="UTF-8">` tag do?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/07-html.md)
-8. [How do `<meta name="viewport">` and `<meta name="description">` impact a webpage?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/08-html.md)
-9. [What is the use of `<link>` tag in HTML?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/09-html.md)
+### What is the purpose of the `<!DOCTYPE>` declaration in HTML?
+The `<!DOCTYPE>` declaration defines the document type and version of HTML being used. It ensures that the browser renders the page in standards mode.
 
-## 3. Text Content Tags
-10. [What is the difference between `<h1>` to `<h6>` tags?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/10-html.md)
-11. [How is the `<p>` tag used?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/11-html.md)
-12. [How do you create horizontal lines using the `<hr>` tag?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/12-html.md)
-13. [What is the `<pre>` tag used for?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/13-html.md)
-14. [What is the purpose of the `<blockquote>` tag?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/15-html.md)
-15. [How does `<code>` differ from `<samp>` and `<kbd>`?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/16-html.md)
-16. [What is the `<abbr>` tag used for?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/17-html.md)
-17. [What does the `<cite>` tag represent?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/18-html.md)
-18. [What does the `<mark>` tag do?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/19-html.md)
-19. [What is the difference between `<b>` and `<strong>`?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/20-html.md)
-20. [What is the difference between `<i>` and `<em>`?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/21-html.md)
-21. [What does the `<small>` tag represent?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/22-html.md)
-22. [How is the `<del>` tag different from `<ins>`?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/23-html.md)
-23. [What is the use of `<time>` tag?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/24-html.md)
+### What does the `<html>` tag represent?
+The `<html>` tag is the root element of an HTML document. All content on the page is contained within this tag.
 
-## 4. Lists
-24. [What are the differences between `<ul>`, `<ol>`, and `<dl>`?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/25-html.md)
-25. [How do `<li>` and `<dt>`/`<dd>` tags work in lists?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/26-html.md)
+### What is the role of the `<head>` tag in an HTML document?
+The `<head>` tag contains meta-information about the HTML document, such as title, links to stylesheets, and meta tags for SEO or character encoding.
 
-## 5. Hyperlinks & Navigation
-26. [What is the `<a>` tag used for?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/27-html.md)
-27. [What attributes can you use with `<a>` (e.g., href, target, rel)?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/28-html.md)
-28. [What is the purpose of the `<nav>` tag?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/29-html.md)
+### What kind of information goes inside the `<title>` tag?
+The `<title>` tag specifies the title of the HTML document. It appears in the browser tab or window and is important for SEO.
 
-## 6. Images, Media & Embeds
-29. [What is the `<img>` tag used for?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/30-html.md)
-30. [What’s the use of the alt, width, and height attributes in `<img>`?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/31-html.md)
-31. [What is the `<figure>` tag, and how does it relate to `<figcaption>`?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/32-html.md)
-32. [How is the `<picture>` tag used for responsive images?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/33-html.md)
-33. [What’s the difference between `<audio>` and `<video>` tags?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/34-html.md)
-34. [What is `<source>` and how is it used with media?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/35-html.md)
-35. [What does `<track>` do in videos?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/36-html.md)
-36. [What is an `<iframe>` and when should it be used?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/37-html.md)
-37. [What is the purpose of the `<embed>` tag?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/38-html.md)
-38. [How does `<object>` differ from `<embed>`?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/39-html.md)
+### How is the `<body>` tag used?
+The `<body>` tag contains the visible content of the HTML document, such as text, images, and interactive elements.
 
-## 7. Forms
-39. [What are the essential tags used in forms (`<form>`, `<input>`, `<textarea>`, `<button>`, `<label>`)?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/40-html.md)
-40. [What’s the difference between `<input type="text">`, `<input type="email">`, `<input type="submit">`, etc.?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/41-html.md)
-41. [How does the `<select>` tag work with `<option>` and `<optgroup>`?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/42-html.md)
-42. [What is `<fieldset>` and how is it used with `<legend>`?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/43-html.md)
-43. [What is `<datalist>` used for?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/44-html.md)
-44. [What is the `<output>` element used for?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/45-html.md)
+---
 
-## 8. Tables
-45. [What is the difference between `<table>`, `<thead>`, `<tbody>`, and `<tfoot>`?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/46-html.md)
-46. [What are `<tr>`, `<th>`, and `<td>` used for?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/47-html.md)
-47. [How does the `<colgroup>` tag help in styling tables?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/48-html.md)
+## 🧠 Metadata Tags
 
-## 9. Scripting & Styling Tags
-48. [What’s the difference between `<script>` and `<noscript>`?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/49-html.md)
-49. [What are the differences between `<style>` and `<link>` tags?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/50-html.md)
+### What is the `<meta>` tag used for?
+The `<meta>` tag provides metadata about the HTML document, such as description, keywords, author, and character encoding.
 
-## 10. HTML5-Specific Tags
-50. [What is the purpose of the `<article>` tag?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/51-html.md)
-51. [What is the use of the `<section>` tag?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/52-html.md)
-52. [Explain the `<aside>` tag and its usage.](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/53-html.md)
-53. [What is the `<footer>` tag used for?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/54-html.md)
-54. [Explain the `<header>` tag in HTML.](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/55-html.md)
-55. [What is the purpose of the `<main>` tag?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/56-html.md)
-56. [What is the use of the `<progress>` and `<meter>` tags?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/57-html.md)
+### What does the `<base>` tag do in an HTML document?
+The `<base>` tag specifies a base URL for relative URLs in the document.
 
-## 11. Accessibility & Semantic Tags
-57. [What are ARIA roles and how do you apply them in HTML tags?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/58-html.md)
-58. [Why should you use semantic HTML tags and give examples?](https://github.com/Kowsalya2929/HTML-QA/blob/main/HTML%20Tags%20QA/59-html.md)
+### When and why do we use the `<link>` tag?
+The `<link>` tag is used to link external resources, such as stylesheets, to the HTML document.
 
-## Conclusion
-These are the foundational HTML tag questions you should be prepared for in your interviews. Happy coding!
+### How does the `<style>` tag differ from the style attribute?
+The `<style>` tag is used to define CSS rules within the document, while the `style` attribute applies inline CSS directly to individual HTML elements.
+
+---
+
+## 🧾 Text Content Tags
+
+### What is the difference between `<h1>` to `<h6>` tags?
+The `<h1>` to `<h6>` tags represent headings, with `<h1>` being the highest (most important) level and `<h6>` being the lowest.
+
+### How is the `<p>` tag used?
+The `<p>` tag defines a paragraph of text.
+
+### What does the `<br>` tag do, and is it self-closing?
+The `<br>` tag inserts a line break and is self-closing.
+
+### How do you create horizontal lines using the `<hr>` tag?
+The `<hr>` tag creates a thematic break or horizontal line in the document.
+
+### What is the `<pre>` tag used for?
+The `<pre>` tag preserves the formatting of text, including whitespace and line breaks.
+
+### What is the purpose of the `<blockquote>` tag?
+The `<blockquote>` tag is used for quoting large sections of text from an external source.
+
+### How does `<code>` differ from `<samp>` and `<kbd>`?
+- `<code>` represents computer code.
+- `<samp>` represents sample output from a program.
+- `<kbd>` represents user input (e.g., keyboard input).
+
+### What is the `<abbr>` tag used for?
+The `<abbr>` tag is used to define an abbreviation or acronym.
+
+### What does the `<cite>` tag represent?
+The `<cite>` tag is used to reference the title of a creative work, such as a book, article, or movie.
+
+### What does the `<mark>` tag do?
+The `<mark>` tag highlights text, usually for emphasis or as search results.
+
+### What is the difference between `<b>` and `<strong>`?
+- `<b>` is used for bold text with no semantic meaning.
+- `<strong>` represents important text, typically displayed as bold.
+
+### What is the difference between `<i>` and `<em>`?
+- `<i>` is used for italic text with no semantic meaning.
+- `<em>` represents emphasized text, usually displayed as italic.
+
+### What does the `<small>` tag represent?
+The `<small>` tag is used to render text in a smaller font.
+
+### How is the `<del>` tag different from `<ins>`?
+- `<del>` represents deleted text.
+- `<ins>` represents inserted text.
+
+### What is the use of the `<time>` tag?
+The `<time>` tag is used to represent a specific time or date.
+
+---
+
+## 📋 Lists
+
+### What are the differences between `<ul>`, `<ol>`, and `<dl>`?
+- `<ul>` represents an unordered (bulleted) list.
+- `<ol>` represents an ordered (numbered) list.
+- `<dl>` represents a description list.
+
+### How do `<li>` and `<dt>/<dd>` tags work in lists?
+- `<li>` defines a list item in both `<ul>` and `<ol>`.
+- `<dt>` defines a term in a description list.
+- `<dd>` defines the description of a term in a description list.
+
+---
+
+## 🔗 Hyperlinks & Navigation
+
+### What is the `<a>` tag used for?
+The `<a>` tag is used to define hyperlinks.
+
+### What attributes can you use with `<a>` (e.g., href, target, rel)?
+- `href`: Specifies the URL of the link.
+- `target`: Specifies where to open the linked document (e.g., `_blank` for a new window).
+- `rel`: Specifies the relationship between the current document and the linked document.
+
+### What is the purpose of the `<nav>` tag?
+The `<nav>` tag is used to define a section of the document dedicated to navigation links.
+
+---
+
+## 🖼️ Images, Media & Embeds
+
+### What is the `<img>` tag used for?
+The `<img>` tag is used to embed images in the document.
+
+### What’s the use of the alt, width, and height attributes in `<img>`?
+- `alt`: Provides alternative text for the image (for accessibility).
+- `width`: Specifies the image width.
+- `height`: Specifies the image height.
+
+### What is the `<figure>` tag, and how does it relate to `<figcaption>`?
+The `<figure>` tag represents content such as an image or illustration, while `<figcaption>` provides a caption for the content.
+
+### How is the `<picture>` tag used for responsive images?
+The `<picture>` tag allows you to define multiple image sources for different screen sizes or resolutions.
+
+### What’s the difference between `<audio>` and `<video>` tags?
+- `<audio>` is used to embed audio content.
+- `<video>` is used to embed video content.
+
+### What is `<source>` and how is it used with media?
+The `<source>` tag specifies multiple media resources for `<audio>` and `<video>` elements.
+
+### What does `<track>` do in videos?
+The `<track>` tag is used to specify text tracks for `<video>` elements, such as subtitles or captions.
+
+### What is an `<iframe>` and when should it be used?
+The `<iframe>` tag is used to embed another HTML page within the current document.
+
+### What is the purpose of the `<embed>` tag?
+The `<embed>` tag is used to embed external content, such as a multimedia file or plugin, into the document.
+
+### How does `<object>` differ from `<embed>`?
+The `<object>` tag is used to embed external content (e.g., PDF, Flash), but it offers more flexibility than `<embed>`.
+
+---
+
+## 🧰 Forms
+
+### What are the essential tags used in forms (`<form>`, `<input>`, `<textarea>`, `<button>`, `<label>`)?
+- `<form>` defines the form element.
+- `<input>` is used to create input fields.
+- `<textarea>` is used for multi-line text input.
+- `<button>` defines a clickable button.
+- `<label>` provides a label for form elements.
+
+### What’s the difference between `<input type="text">`, `<input type="email">`, `<input type="submit">`, etc.?
+- `<input type="text">`: Creates a text input field.
+- `<input type="email">`: Creates an email input field (with validation).
+- `<input type="submit">`: Creates a submit button.
+
+### How does the `<select>` tag work with `<option>` and `<optgroup>`?
+The `<select>` tag creates a dropdown list, `<option>` defines individual options, and `<optgroup>` groups options.
+
+### What is `<fieldset>` and how is it used with `<legend>`?
+The `<fieldset>` tag is used to group related form elements, while `<legend>` provides a title for the group.
+
+### What is `<datalist>` used for?
+The `<datalist>` tag provides a list of predefined options for an `<input>` element.
+
+### What is the `<output>` element used for?
+The `<output>` element represents the result of a calculation or user action.
+
+---
+
+## 📐 Tables
+
+### What tags are used to build tables (`<table>`, `<thead>`, `<tbody>`, `<tfoot>`, `<tr>`, `<th>`, `<td>`)?
+- `<table>` defines the table.
+- `<thead>` represents the table header.
+- `<tbody>` represents the table body.
+- `<tfoot>` represents the table footer.
+- `<tr>` defines a row in the table.
+- `<th>` defines a table header cell.
+- `<td>` defines a table data cell.
+
+### What are attributes like `colspan`, `rowspan`, `scope` used for?
+- `colspan`: Defines how many columns a cell should span.
+- `rowspan`: Defines how many rows a cell should span.
+- `scope`: Specifies whether a header cell is for a row, column, or group.
+
+---
+
+## 🏗️ Layout & Sections
+
+### What is the purpose of the `<div>` tag?
+The `<div>` tag is a generic container used to group elements and apply styles or scripts.
+
+### What is the `<span>` tag used for?
+The `<span>` tag is a generic inline container used to apply styles or scripts to text.
+
+### What is the `<section>` tag and how is it different from `<article>`?
+- `<section>` represents a section of related content.
+- `<article>` represents independent, self-contained content.
+
+### When should you use `<header>`, `<footer>`, and `<main>`?
+- `<header>` represents the introductory content or navigation.
+- `<footer>` represents the footer content.
+- `<main>` represents the main content of the document.
+
+### What is the `<aside>` tag used for?
+The `<aside>` tag is used for content tangentially related to the main content, such as sidebars or advertisements.
+
+### What’s the role of the `<address>` tag?
+The `<address>` tag represents contact information for the document or author.
+
+---
+
+## 🧮 Scripting & Programmatic Content
+
+### What is the `<script>` tag used for?
+The `<script>` tag is used to include JavaScript in the document.
+
+### What is `<noscript>` and when is it useful?
+The `<noscript>` tag provides alternative content for users whose browsers do not support JavaScript.
+
+### How is the `<template>` tag used?
+The `<template>` tag defines reusable content that is not rendered until activated by JavaScript.
+
+---
+
+## 📊 Graphics
+
+### What is the `<canvas>` element and how does it work?
+The `<canvas>` element is used to draw graphics via JavaScript, such as 2D shapes or animations.
+
+### What is `<svg>` used for in HTML?
+The `<svg>` tag is used to define vector graphics, such as shapes and paths, in XML format.
+
+### What is `<path>` in an SVG?
+The `<path>` tag defines a path to be drawn in an SVG graphic, using a series of commands.
+
+---
+
+## ⚙️ Interactive Elements
+
+### What is the `<details>` and `<summary>` combination used for?
+The `<details>` tag represents a disclosure widget, while `<summary>` provides the title for the widget. The content is revealed when the user interacts with it.
+
+### What is `<dialog>` and how does it differ from custom modal implementations?
+The `<dialog>` tag represents a dialog box or modal. Unlike custom modals, it is built into the HTML standard and provides native functionality.
+
+---
+
+## 🧪 Obsolete/Deprecated (but sometimes asked)
+
+### What were the roles of `<font>`, `<center>`, `<marquee>` and why are they deprecated?
+- `<font>` was used for styling text, but it's deprecated in favor of CSS.
+- `<center>` was used to center content, replaced by CSS.
+- `<marquee>` was used for scrolling text, now deprecated for better alternatives like CSS animations.
