@@ -1,12 +1,10 @@
-<h4>1. What is the purpose of the `<!DOCTYPE>` DOCTYPE declaration in HTML?</h4>
+#### 1. What is the purpose of the `<!DOCTYPE>` DOCTYPE declaration in HTML?
 
-<h5>Answer :</h5>
+##### Answer:
+- In this `<!DOCTYPE>` DOCTYPE, it is not case sensitive; you can use lowercase as well.
+- It follows HTML5 documents.
+- Ensures consistent rendering.
 
-<ol>
-<li>In this `<!DOCTYPE>` DOCTYPE, It is not case sensitive you can give lower case also.</li>
-<li>It follows HTML5 documents</li>
-<li>Consistent rendering</li>
-</ol>
 
 | Feature                 | **HTML4**                                                                    | **HTML5**                                                                                     |
 | ----------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
