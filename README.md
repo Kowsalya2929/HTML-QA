@@ -3,7 +3,9 @@
 ## Basic Structure & Document Tags
 
 ### What is the purpose of the `<!DOCTYPE>` declaration in HTML?
-The `<!DOCTYPE>` declaration defines the document type and version of HTML being used. It ensures that the browser renders the page in standards mode.
+- In this `<!DOCTYPE>`, it is not case sensitive. you can use lowercase as well.
+- It follows HTML5 documents.
+- Ensures consistent rendering.
 
 ### What does the `<html>` tag represent?
 The `<html>` tag is the root element of an HTML document. All content on the page is contained within this tag.
@@ -38,19 +40,26 @@ The `<style>` tag is used to define CSS rules within the document, while the `st
 ## 🧾 Text Content Tags
 
 ### What is the difference between `<h1>` to `<h6>` tags?
-The `<h1>` to `<h6>` tags represent headings, with `<h1>` being the highest (most important) level and `<h6>` being the lowest.
+- Browser apply decreasing font sizes from `<h1>` to `<h6>` by default.
+- Html Headings Are Titles Or Subtitles That You Want To Display On A Webpage.
 
 ### How is the `<p>` tag used?
-The `<p>` tag defines a paragraph of text.
+- Purpose : The `<p>` tag is used to define a paragraph of text in HTML.
+- Block-Level Element: It is a block-level element, meaning it starts on a new line by default.
+- Whitespace Handling: The `<p>` tag does not preserve extra whitespace (like multiple spaces or intentional line breaks). Any extra white space is generally collapsed into a single space.
 
 ### What does the `<br>` tag do, and is it self-closing?
-The `<br>` tag inserts a line break and is self-closing.
+- It is just breaking line within a text, use `<br>` tag.
+- It is considered self-closing tag. Which means it does not require a separate closing tag. In HTML5, both `<br>` and `<br/>` are valid syntaxes.
 
 ### How do you create horizontal lines using the `<hr>` tag?
-The `<hr>` tag creates a thematic break or horizontal line in the document.
+- It is just horizontal line , use `<hr>` tag.
+- The `<hr>` tag is self-closing and does not require a closing tag.
+- In HTML5, the `<hr>` tag is not just a visual element, it also carries semantic meaning. It represents a thematic break in the content.
 
 ### What is the `<pre>` tag used for?
-The `<pre>` tag preserves the formatting of text, including whitespace and line breaks.
+- In this tag is Preformatted text. You can use `<pre>` tag.
+- Whitespace Handling: To preserve whitespace and line breaks exactly as written (such as in poems or code snippets), use the `<pre>` tag.
 
 ### What is the purpose of the `<blockquote>` tag?
 The `<blockquote>` tag is used for quoting large sections of text from an external source.
