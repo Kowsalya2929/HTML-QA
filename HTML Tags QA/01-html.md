@@ -1,6 +1,6 @@
-What is the purpose of the <!DOCTYPE html> declaration in HTML?
+<h4>What is the purpose of the <!DOCTYPE html> declaration in HTML?</h4>
 
-Answer :
+<h5>Answer :</h5>
 
 <ol>
 <li>In this <!DOCTYPE html>, It is not case sensitive you can give lower case also.</li>
