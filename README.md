@@ -7,6 +7,18 @@
 - It follows HTML5 documents.
 - Ensures consistent rendering.
 
+| Feature                 | **HTML4**                                                                    | **HTML5**                                                                                     |
+| ----------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Doctype Declaration** | Long and complex:<br>`<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"...>` | Simple:<br>`<!DOCTYPE html>`                                                                  |
+| **Structure Tags**      | No semantic structure tags                                                   | Introduces semantic tags like `<header>`, `<footer>`, `<article>`, `<section>`, `<nav>`, etc. |
+| **Multimedia Support**  | Requires plugins (Flash, etc.) for audio/video                               | Native support for `<audio>` and `<video>`                                                    |
+| **Form Enhancements**   | Limited input types                                                          | New input types: `email`, `date`, `number`, `range`, etc.                                     |
+| **Graphics Support**    | No support for drawing                                                       | Supports `<canvas>` and SVG for drawing graphics                                              |
+| **Storage**             | Relies on cookies                                                            | Supports Web Storage: `localStorage`, `sessionStorage`                                        |
+| **APIs & Features**     | Lacks built-in APIs                                                          | Supports APIs like Geolocation, Web Workers, Offline Web Apps                                 |
+| **Mobile Support**      | Not designed for mobile                                                      | Designed with mobile-first approach in mind                                                   |
+| **Error Handling**      | Browsers handled inconsistently                                              | Standardized parsing rules across browsers                                                    |
+
 ### What does the `<html>` tag represent?
 The `<html>` tag is the root element of an HTML document. All content on the page is contained within this tag.
 
@@ -42,6 +54,15 @@ The `<style>` tag is used to define CSS rules within the document, while the `st
 ### What is the difference between `<h1>` to `<h6>` tags?
 - Browser apply decreasing font sizes from `<h1>` to `<h6>` by default.
 - Html Headings Are Titles Or Subtitles That You Want To Display On A Webpage.
+
+| Tag    | Purpose                 | Default Size | Usage Suggestion                |
+| ------ | ----------------------- | ------------ | ------------------------------- |
+| `<h1>` | Most important heading       | Largest      | Once per page (main title)      |
+| `<h2>` | Section heading         | Smaller      | Subsections under `<h1>`        |
+| `<h3>` | Subsection heading      | Smaller      | Under `<h2>`                    |
+| `<h4>` | Sub-subsection heading  | Smaller      | Under `<h3>`                    |
+| `<h5>` | Minor heading           | Smaller      | Less commonly used              |
+| `<h6>` | Least important heading | Smallest     | Rarely used, very minor details |
 
 ### How is the `<p>` tag used?
 - Purpose : The `<p>` tag is used to define a paragraph of text in HTML.
