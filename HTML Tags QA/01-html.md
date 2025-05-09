@@ -1,7 +1,7 @@
 #### 1. What is the purpose of the `<!DOCTYPE>` declaration in HTML?
 
 ##### Answer:
-- In this `<!DOCTYPE>`, it is not case sensitive; you can use lowercase as well.
+- In this `<!DOCTYPE>`, it is not case sensitive. you can use lowercase as well.
 - It follows HTML5 documents.
 - Ensures consistent rendering.
 

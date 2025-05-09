@@ -14,10 +14,10 @@
    4. [Question 4](#)
 
 3. **Text Content Tags**
-   1. [Question 1](#)
-   2. [Question 2](#)
-   3. [Question 3](#)
-   4. [Question 4](#)
+   1. [What is the difference between `<h1>` to `<h6>` tags?](#)
+   2. [How is the `<p>` tag used?](#)
+   3. [How do you create horizontal lines using the `<hr>` tag?](#)
+   4. [What is the `<pre>` tag used for?](#)
    5. [Question 5](#)
    6. [Question 6](#)
    7. [Question 7](#)
