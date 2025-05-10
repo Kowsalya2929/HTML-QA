@@ -1,0 +1,32 @@
+/* table */
+
+table,th,td {
+    border: 1px solid black;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: red;
+    text-align: center;
+    border-spacing: 10px;
+}
+th,td{
+    padding: 10px;
+}
+table {
+    width: 100%;
+}
+
+/* tr:nth-child(odd) {
+    background-color: aquamarine;
+} */
+
+th:nth-child(even),td:nth-child(even){
+    background-color: aquamarine;
+}
+
+tr:hover {
+    background-color: bisque;
+}
+
+ul li {
+    list-style-type: circle;
+}
